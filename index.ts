@@ -15,12 +15,11 @@ for (const faker of [fakerEN_AU]) {
           <img src="${faker.image.avatar()}" alt="Avatar image of ${fullName}"/>
         </div>
         <div class="card__body">
-          <h2>${fullName}</h2>
+          <h2>${faker.person.firstName()} ${faker.person.lastName()}</h2>
           <p class="fTitle">Address</p>
           <p>${faker.location.streetAddress()}, ${faker.location.city()}, ${faker.location.state()}</p>
           <p class="fTitle">Phone</p>
           <p>${faker.phone.number()}</p>
-         
           <p class="fTitle">Job Type</p>
           <p>${faker.person.jobType()}</p>
           <p class="fTitle">Job Title</p>
