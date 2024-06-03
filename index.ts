@@ -18,10 +18,10 @@ for (const faker of [fakerEN_AU]) {
   <div class="container">
       <div class="card">
         <div class="card__image">
-          <img src="${faker.image.url()}" alt="Background image for ${fullName}"/>
+          <img src="${faker.image.url()}" alt="Background image"/>
         </div>
         <div class="card__profile">
-          <img src="${faker.image.avatar()}" alt="Avatar image of ${fullName}"/>
+          <img src="${faker.image.avatar()}" alt="Avatar image"/>
          
         </div>
         <div class="card__body">
